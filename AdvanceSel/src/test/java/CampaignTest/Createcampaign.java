@@ -84,7 +84,7 @@ import genericListenserUtility.ListenserImp;
 		//@Parameters("browser")
 	//@Test (groups= {"SmokeTest"})
 	@Test(dependsOnMethods="createCampaignTest")
-		public void createCampaignWithDateTest() throws IOException, InterruptedException
+		public void createCampaignWithCloseDateTest() throws IOException, InterruptedException
 		{
 		
 		

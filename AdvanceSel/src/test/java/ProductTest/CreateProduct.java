@@ -36,7 +36,7 @@ public class CreateProduct extends BaseClass{
 	//@Parameters("browser")
 	@Test(groups= {"RegressionTest"})
 
-public void createProductTest()throws IOException, InterruptedException {
+public void addProductTest()throws IOException, InterruptedException {
 	
 	
 		
