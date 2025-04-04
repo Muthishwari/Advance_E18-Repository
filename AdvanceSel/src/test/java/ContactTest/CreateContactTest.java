@@ -28,7 +28,7 @@ import ObjjectRepository.LoginPage;
 import genericBaseClassUtility.BaseClass;
 import genericListenserUtility.ListenserImp;
 //@Listeners(ListenserImp.class)
-public class CreateContact extends BaseClass{
+public class CreateContactTest extends BaseClass{
 	//@Parameters ("browser")
 	@Test(groups= {"RegressionTest"})
 	public void CreateContactWithCampaignTest() throws IOException, InterruptedException {

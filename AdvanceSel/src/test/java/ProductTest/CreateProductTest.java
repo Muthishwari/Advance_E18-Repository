@@ -32,7 +32,7 @@ import ObjjectRepository.ProductPage;
 import genericBaseClassUtility.BaseClass;
 import genericListenserUtility.ListenserImp;
 //@Listeners(ListenserImp.class)
-public class CreateProduct extends BaseClass{
+public class CreateProductTest extends BaseClass{
 	//@Parameters("browser")
 	@Test(groups= {"RegressionTest"})
 

@@ -36,7 +36,7 @@ import GenericUtility.ExcelFileUtility;
 import genericBaseClassUtility.BaseClass;
 import genericListenserUtility.ListenserImp;
 //@Listeners(ListenserImp.class)
-	public class Createcampaign extends BaseClass {
+	public class CreatecampaignTest extends BaseClass {
 		//@Parameters("browser")
 		//@Test(groups= {"Integration"})
 		//@Test(invocationCount = 3, threadPoolSize= 4)

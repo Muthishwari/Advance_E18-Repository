@@ -82,7 +82,7 @@ public class CreateProduct{
 		driver.findElement(By.name("productName")).sendKeys(ProductName);
 		   WebDriverUtility wUtil=new WebDriverUtility();
 		WebElement category = driver.findElement(By.name("productCategory"));
-	     wUtil.select(category, "Electronics");
+	    // wUtil.select(category, "Electronics");
 		   
 		//Select s= new Select(category);
 	//	s.selectByValue("Electronics");

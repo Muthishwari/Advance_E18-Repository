@@ -26,7 +26,7 @@ import GenericUtility.PropertiesFileUtility;
 import genericBaseClassUtility.BaseClass;
 import genericListenserUtility.ListenserImp;
 //@Listeners(ListenserImp.class)
-	public class Login extends BaseClass{
+	public class LoginTest extends BaseClass{
       // @Parameters("browser")
 //	@Test(groups= {"SmokeTest"})
 	@Test(retryAnalyzer=genericListenserUtility.RetryListenserImp.class)	
