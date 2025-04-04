@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.Login">
+      <class name="LoginTest.LoginTest">
         <methods>
           <include name="beforesuite"/>
           <include name="afterclass"/>
           <include name="beforeTest"/>
           <include name="aftermthod"/>
-          <include name="beforeclass"/>
           <include name="aftetest"/>
+          <include name="beforeclass"/>
           <include name="beforemethod"/>
           <include name="loginTest"/>
           <include name="aftersuite"/>
         </methods>
-      </class> <!-- Login.Login -->
+      </class> <!-- LoginTest.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

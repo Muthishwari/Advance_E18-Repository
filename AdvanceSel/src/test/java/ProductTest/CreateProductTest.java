@@ -38,9 +38,6 @@ public class CreateProductTest extends BaseClass{
 
 public void addProductTest()throws IOException, InterruptedException {
 	
-	
-		
-		
 		JavaUtility jutil=new JavaUtility();
 		int randNum = jutil.getRandomNum(2000);
 		ExcelFileUtility excelUtil=new ExcelFileUtility();

@@ -12,7 +12,7 @@ public class ExcelFileUtility
 	
 	public String readingDataFromExcelFileUtility(String sheet,int rowNum,int cellNum) throws EncryptedDocumentException, IOException
 	{
-		FileInputStream fis= new FileInputStream("D:\\AdvanceSel\\src\\test\\resources\\E18.xlsx");
+		FileInputStream fis= new FileInputStream("C:\\Users\\admin\\git\\E18_Batch\\AdvanceSel\\src\\test\\resources\\E18.xlsx");
 		Workbook wb = WorkbookFactory.create(fis);
 	String data = wb.getSheet(sheet).getRow(rowNum).getCell(cellNum).getStringCellValue();
 		return data;

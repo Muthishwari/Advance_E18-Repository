@@ -10,7 +10,7 @@ public class PropertiesFileUtility {
 	{
 		
 	
-	FileInputStream fis= new  FileInputStream("D:\\AdvanceSel\\src\\test\\resources\\CommonData_E18.Properties");
+	FileInputStream fis= new  FileInputStream("C:\\Users\\admin\\git\\E18_Batch\\AdvanceSel\\src\\test\\resources\\CommonData_E18.Properties");
 	Properties prop=new Properties();
 	prop.load(fis);
 	String data = prop.getProperty(Key);

@@ -1,355 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results retried="3" ignored="3" total="11" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
-    <line>
-      <![CDATA[campaign Quantity1252 added successfully]]>
-    </line>
-    <line>
-      <![CDATA[campaign Banner112670 added successfully]]>
-    </line>
-    <line>
-      <![CDATA[campaign Banner1114 added successfully]]>
-    </line>
-    <line>
-      <![CDATA[Contact Smith_262 added Successfully]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-03-29T20:53:57 IST" name="Suite" finished-at="2025-03-29T20:55:27 IST" duration-ms="90009">
+  <suite started-at="2025-04-04T20:27:05 IST" name="Default suite" finished-at="2025-04-04T20:27:05 IST" duration-ms="58">
     <groups>
-      <group name="RegressionTest">
-        <method signature="CreateContact.CreateContactWithCampaignTest()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" name="CreateContactWithCampaignTest" class="ContactTest.CreateContact"/>
-        <method signature="CreateProduct.createProductTest()[pri:0, instance:ProductTest.CreateProduct@385c9627]" name="createProductTest" class="ProductTest.CreateProduct"/>
-      </group> <!-- RegressionTest -->
     </groups>
-    <test started-at="2025-03-29T20:53:57 IST" name="Test" finished-at="2025-03-29T20:55:27 IST" duration-ms="90009">
-      <class name="Login.Login">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:15 IST" name="beforeclass" finished-at="2025-03-29T20:54:16 IST" duration-ms="873" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:16 IST" name="beforemethod" finished-at="2025-03-29T20:54:20 IST" duration-ms="4075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method retried="true" signature="loginTest()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:20 IST" name="loginTest" finished-at="2025-03-29T20:54:22 IST" duration-ms="2058" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at Login.Login.loginTest(Login.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:22 IST" name="aftermthod" finished-at="2025-03-29T20:54:23 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:23 IST" name="beforemethod" finished-at="2025-03-29T20:54:23 IST" duration-ms="928" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method retried="true" signature="loginTest()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:23 IST" name="loginTest" finished-at="2025-03-29T20:54:25 IST" duration-ms="2031" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at Login.Login.loginTest(Login.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:25 IST" name="aftermthod" finished-at="2025-03-29T20:54:26 IST" duration-ms="41" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:26 IST" name="beforemethod" finished-at="2025-03-29T20:54:26 IST" duration-ms="763" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method retried="true" signature="loginTest()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:26 IST" name="loginTest" finished-at="2025-03-29T20:54:28 IST" duration-ms="2015" status="SKIP">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at Login.Login.loginTest(Login.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:28 IST" name="aftermthod" finished-at="2025-03-29T20:54:28 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:28 IST" name="beforemethod" finished-at="2025-03-29T20:54:29 IST" duration-ms="764" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="loginTest()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:29 IST" name="loginTest" finished-at="2025-03-29T20:54:31 IST" duration-ms="2025" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at Login.Login.loginTest(Login.java:47)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:32 IST" name="aftermthod" finished-at="2025-03-29T20:54:32 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:Login.Login@31190526]" started-at="2025-03-29T20:54:32 IST" name="afterclass" finished-at="2025-03-29T20:54:32 IST" duration-ms="124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- Login.Login -->
-      <class name="ProductTest.CreateProduct">
-        <test-method is-config="true" signature="beforesuite()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:53:57 IST" name="beforesuite" finished-at="2025-03-29T20:53:57 IST" duration-ms="388" status="PASS">
+    <test started-at="2025-04-04T20:27:05 IST" name="Default test" finished-at="2025-04-04T20:27:05 IST" duration-ms="58">
+      <class name="LoginTest.LoginTest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:04 IST" name="beforesuite" finished-at="2025-04-04T20:27:05 IST" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:53:57 IST" name="beforeTest" finished-at="2025-03-29T20:53:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="beforeTest" finished-at="2025-04-04T20:27:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:53:57 IST" name="beforeclass" finished-at="2025-03-29T20:53:59 IST" duration-ms="1989" status="PASS">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="beforeclass" finished-at="2025-04-04T20:27:05 IST" duration-ms="1" status="FAIL">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\AdvanceSel\src\test\resources\CommonData_E18.Properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\AdvanceSel\src\test\resources\CommonData_E18.Properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at GenericUtility.PropertiesFileUtility.readingDataFromPropertyFile(PropertiesFileUtility.java:13)
+at genericBaseClassUtility.BaseClass.beforeclass(BaseClass.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:53:59 IST" name="beforemethod" finished-at="2025-03-29T20:54:01 IST" duration-ms="2116" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="beforemethod" finished-at="2025-04-04T20:27:05 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="createProductTest()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:54:01 IST" name="createProductTest" finished-at="2025-03-29T20:54:15 IST" duration-ms="14132" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="loginTest" finished-at="2025-04-04T20:27:05 IST" duration-ms="0" status="SKIP">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[D:\AdvanceSel\src\test\resources\CommonData_E18.Properties (The system cannot find the path specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: D:\AdvanceSel\src\test\resources\CommonData_E18.Properties (The system cannot find the path specified)
+at java.base/java.io.FileInputStream.open0(Native Method)
+at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+at GenericUtility.PropertiesFileUtility.readingDataFromPropertyFile(PropertiesFileUtility.java:13)
+at genericBaseClassUtility.BaseClass.beforeclass(BaseClass.java:51)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
           <reporter-output>
-            <line>
-              <![CDATA[campaign Quantity1252 added successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createProductTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:54:15 IST" name="aftermthod" finished-at="2025-03-29T20:54:15 IST" duration-ms="51" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="aftermthod()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="aftermthod" finished-at="2025-04-04T20:27:05 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:54:15 IST" name="afterclass" finished-at="2025-03-29T20:54:15 IST" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="afterclass" finished-at="2025-04-04T20:27:05 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="aftetest()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:55:27 IST" name="aftetest" finished-at="2025-03-29T20:55:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="aftetest()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="aftetest" finished-at="2025-04-04T20:27:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftetest -->
-        <test-method is-config="true" signature="aftersuite()[pri:0, instance:ProductTest.CreateProduct@385c9627]" started-at="2025-03-29T20:55:27 IST" name="aftersuite" finished-at="2025-03-29T20:55:27 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:LoginTest.LoginTest@dd05255]" started-at="2025-04-04T20:27:05 IST" name="aftersuite" finished-at="2025-04-04T20:27:05 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite -->
-      </class> <!-- ProductTest.CreateProduct -->
-      <class name="ContactTest.CreateContact">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" started-at="2025-03-29T20:55:02 IST" name="beforeclass" finished-at="2025-03-29T20:55:03 IST" duration-ms="841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" started-at="2025-03-29T20:55:03 IST" name="beforemethod" finished-at="2025-03-29T20:55:07 IST" duration-ms="3923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="CreateContactWithCampaignTest()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" started-at="2025-03-29T20:55:07 IST" name="CreateContactWithCampaignTest" finished-at="2025-03-29T20:55:27 IST" duration-ms="20349" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Contact Smith_262 added Successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CreateContactWithCampaignTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" started-at="2025-03-29T20:55:27 IST" name="aftermthod" finished-at="2025-03-29T20:55:27 IST" duration-ms="48" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:ContactTest.CreateContact@477b4cdf]" started-at="2025-03-29T20:55:27 IST" name="afterclass" finished-at="2025-03-29T20:55:27 IST" duration-ms="104" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- ContactTest.CreateContact -->
-      <class name="CampaignTest.Createcampaign">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:32 IST" name="beforeclass" finished-at="2025-03-29T20:54:33 IST" duration-ms="878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:33 IST" name="beforemethod" finished-at="2025-03-29T20:54:34 IST" duration-ms="1411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="createCampaignTest()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:34 IST" name="createCampaignTest" finished-at="2025-03-29T20:54:47 IST" duration-ms="12483" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[campaign Banner112670 added successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createCampaignTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:47 IST" name="aftermthod" finished-at="2025-03-29T20:54:47 IST" duration-ms="52" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:47 IST" name="beforemethod" finished-at="2025-03-29T20:54:51 IST" duration-ms="4551" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="createCampaignWithDateTest()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:54:51 IST" name="createCampaignWithDateTest" finished-at="2025-03-29T20:55:02 IST" depends-on-methods="CampaignTest.Createcampaign.createCampaignTest" duration-ms="10361" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[campaign Banner1114 added successfully]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createCampaignWithDateTest -->
-        <test-method is-config="true" signature="aftermthod()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:55:02 IST" name="aftermthod" finished-at="2025-03-29T20:55:02 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermthod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:CampaignTest.Createcampaign@3eb25e1a]" started-at="2025-03-29T20:55:02 IST" name="afterclass" finished-at="2025-03-29T20:55:02 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-      </class> <!-- CampaignTest.Createcampaign -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- LoginTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

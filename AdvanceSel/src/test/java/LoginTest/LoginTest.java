@@ -1,4 +1,4 @@
-package Login;
+package LoginTest;
 
 
 	import java.io.FileInputStream;
@@ -33,7 +33,7 @@ import genericListenserUtility.ListenserImp;
 		public void loginTest()throws InterruptedException, IOException {
 			
 			
-			String expectedURL="http://49.249.28.218:8098/dashboar";
+			String expectedURL="http://49.249.28.218:8098/dashboard";
 			//Launching the browser
 			
 		
