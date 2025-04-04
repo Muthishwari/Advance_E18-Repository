@@ -7,7 +7,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="ProductTest.CreateProductTest"/>
-      <class name="Login.LoginTest"/>
+      <class name="LoginTest.LoginTest"/>
       <class name="CampaignTest.CreatecampaignTest"/>
       <class name="ContactTest.CreateContactTest"/>
     </classes>
