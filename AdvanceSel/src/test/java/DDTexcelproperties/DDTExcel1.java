@@ -11,7 +11,7 @@ public class DDTExcel1 {
 
 	public static void main(String[] args) throws EncryptedDocumentException, IOException {
 
-    FileInputStream fis= new FileInputStream("D:\\AdvanceSel\\src\\test\\resources\\E18.xlsx");
+    FileInputStream fis= new FileInputStream("C:\\Users\\admin\\git\\E18_Batch\\AdvanceSel\\src\\test\\resources\\E18.xlsx");
    Workbook wb = WorkbookFactory.create(fis);
    String Campaign = wb.getSheet("DDT").getRow(1).getCell(2).getStringCellValue();
       double targetsize = wb.getSheet("DDT").getRow(1).getCell(3).getNumericCellValue();  

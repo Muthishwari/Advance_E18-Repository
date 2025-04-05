@@ -11,7 +11,7 @@ public class DDTjason {
 
 	public static void main(String[] args) throws IOException, ParseException {
 		JSONParser Parser= new JSONParser();
-		FileReader file= new FileReader("D:\\AdvanceSel\\src\\test\\resources\\Data_E18.json");
+		FileReader file= new FileReader("C:\\Users\\admin\\git\\E18_Batch\\AdvanceSel\\src\\test\\resources\\Data_E18.json");
 		Object javaobj = Parser.parse(file);
 		
 		JSONObject obj=(JSONObject)javaobj;
